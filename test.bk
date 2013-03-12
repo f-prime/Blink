@@ -1,0 +1,7 @@
+{
+  [
+    assign c 1
+  ]
+}
+
+{[while @c != 100 (math c @c + 1)]}
