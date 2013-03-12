@@ -3,7 +3,7 @@
     assign c 1
   ]
 }
-{[if c = 1 (say This is a say statement!]}
+{[if @c = 1 (say This is a say statement!)]}
 {[while @c != 100 (math c @c + 1)]}
 {[say Look at that counting! Cool huh?]}
 
